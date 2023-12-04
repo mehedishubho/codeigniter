@@ -1,0 +1,24 @@
+CRITICAL - 2023-12-02 06:12:46 --> Call to undefined method App\Controllers\ProductModel::findAll()
+in APPPATH\Controllers\ProductController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')
+CRITICAL - 2023-12-02 06:15:31 --> Call to undefined method App\Controllers\ProductModel::findAll()
+in APPPATH\Controllers\ProductController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')
+CRITICAL - 2023-12-02 06:46:12 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\products\index.php on line 88.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('products/index', [], true)
+ 3 APPPATH\Controllers\ProductController.php(22): view('products/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\codeigniter\\public\\index.php')
